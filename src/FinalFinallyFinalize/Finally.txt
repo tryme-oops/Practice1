@@ -1,0 +1,22 @@
+we use finally block is used to
+
+1. close the browser driver.quit. (will execute under any condition fail/pass)
+2. close the database connection after use (under any condition)
+
+
+finally{
+  syso(driver.quit);
+}
+
+
+=================
+final keyword
+=================
+
+1. for Method : final method to prevent method Overriding.
+2. For final variable (int i = 30) : we cannot change the value of i through out the program
+3. for final Class : we cannot inherit a final class
+
+
+===============
+finalize
